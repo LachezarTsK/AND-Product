@@ -21,7 +21,7 @@ public class SolutionThree {
    * columns of the integer range have to be with value '1' in order for the result 
    * of this column to be equal to '1'.
    *
-   *@return A long integer, representing the value of the bitwise operation &,
+   *@return A long integer, representing the value of the bitwise operation 'AND',
    *        performed on all integers within the range.
    */
   private static long find_bitwiseAND_inRange(long min, long max) {
