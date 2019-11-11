@@ -34,7 +34,7 @@ public class SolutionThree {
       if (maxToBinary.charAt(i) == '1') {
 
         if (result + Math.pow(2, exponent) <= min) {
-          result = result + (long) Math.pow(2, exponent);
+          result += (long) Math.pow(2, exponent);
         } else {
           break;
         }
